@@ -66,6 +66,7 @@ for (let i = 0; i < arregleInvertido.length; i++) {
 
 //ejercicio 2
 //identificar los numeros y tener un contador que incrementa por cada par que vea [1,2,3,4,5,6,7,8]
+
 const pares = [1, 2, 3, 4, 5, 6, 7, 8];
 let contadorPares = 0;
 
@@ -76,6 +77,9 @@ for (let i = 0; i < pares.length; i++) {
 }
 
 console.log(contadorPares);
+// let i = 0 inicializa una variable i en 0.
+// i < pares.lenght es la condincion que indica que el bucle se ejecutara mientras sea menor o igual a eso.
+//i++ se usa para incrementar en uno cada iteracion. 
 
 //van a tener un bucle donde van a pasar todos los numeros
 
@@ -83,3 +87,11 @@ console.log(contadorPares);
 
 //ejercicio 3
 //van a tener un arreglo de numeros [1,2,3,4,5,6,7,8] y cada numero que pase tiene que sumarse van tener una variable total que sea igual a 0 y cuando pase por ejemeplo el 1 sumarlo al 0 cuando pase el 2 sumarle al total previo
+const suma = [1, 2, 3, 4, 5, 6, 7, 8];
+let sumador = 0;
+
+for (let i = 0; i < suma.length; i++) {
+		sumador +=  suma[i]; // Se suma el valor actual del array al sumador
+	}
+
+console.log(sumador);
