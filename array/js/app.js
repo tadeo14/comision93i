@@ -90,6 +90,7 @@ console.log(contadorPares);
 const suma = [1, 2, 3, 4, 5, 6, 7, 8];
 let sumador = 0;
 
+
 for (let i = 0; i < suma.length; i++) {
 		sumador +=  suma[i]; // Se suma el valor actual del array al sumador
 	}
